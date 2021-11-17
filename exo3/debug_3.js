@@ -1,25 +1,28 @@
-let texte = document.getElementById('main').innerHTML = "test";
+let texte = document.getElementById('main');
+texte.innerHTML = "test";
 
-let boucle;
-while(var boucle<5) {
-    boucle =+ 5;
+let boucle = 0;
+while( boucle < 5) {
+    boucle += 5;
 }
 
+alert("Penser à ne pas oublier...");
 
-document.getElementById('divInconnuAuBataillon').innerHTML = "ttttttttttttttttt";
 
-if(variableIconnueAuBataillon == 1) {
+alert ("certaines choses");
+
+
+let variableIconnueAuBataillon = document.getElementById('divInconnuAuBataillon');
+variableIconnueAuBataillon.innerHTML = "ttttttttttttttttt";
+
+if(variableIconnueAuBataillon === 1) {
 alert('connue');
 }
 else {
-    alert(inconnue);
+    alert('inconnue');
 }
 
 
-alert("Penser à ne pas oublier...);
-
-
-alert "certaines choses";
 
 
 
